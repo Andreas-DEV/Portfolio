@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Inter.ttf');
+    /* IE9 Compat Modes */
+    src: local(''), url('/fonts/Inter.ttf') format('embedded-opentype'),
+
+        /* Modern Browsers */
+        url('/fonts/Inter.ttf') format('truetype')
+}
+
+html {
+    font-family: 'Inter';
+}
+
+body {
+    background-color: whitesmoke;
+}
